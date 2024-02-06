@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* line 5, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.fondoMenu {
+  background-color: #ffcdcd;
+  position: sticky;
+  top: 0;
+}
+
+/* line 9, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.fondoMenu .active {
+  background-color: #97b1e092;
+  border-radius: 15px;
+}
+
+/* line 12, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.fondoMenu .active .navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+/* line 14, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.fondoMenu .active .navbar-light .navbar-nav .nav-link .navbar-light .navbar-nav .nav-link:hover {
+  background-color: #ffcdcd;
+  color: white;
+  border-radius: 15px;
+}
+
+/* line 24, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.foot {
+  margin-top: 40px;
+}
+
+/* line 26, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.foot .row {
+  background-color: #ffcdcd;
+}
+
+/* line 28, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.foot .row ul {
+  list-style: none;
+}
+
+/* line 30, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.foot .row ul li {
+  display: inline-block;
+}
+
+/* line 32, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.foot .row ul li .bi-facebook,
+.foot .row ul li .bi-instagram,
+.foot .row ul li .bi-twitter,
+.foot .row ul li .bi-linkedin {
+  font-size: 30px;
+  padding: 10px;
+  color: #97b0e0;
+  background-color: none;
+  border-radius: 15px;
+}
+
+/* line 48, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.9s;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 55, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.card-img-top:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+/* line 61, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 55px;
+}
+
+/* line 65, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+h2 {
+  font-family: 'Alegreya', serif;
+  font-size: 23px;
+}
+
+/* line 69, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+p {
+  font-family: 'Pathway Gothic One', sans-serif;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+/* line 74, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.form-select {
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+  background-color: #97b0e051;
+}
+
+/* line 79, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.form-control {
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+}
+
+/* line 83, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.btn-primary {
+  font-family: 'Alegreya', serif;
+  font-size: 15px;
+}
+
+/* line 89, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+/* line 103, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+
+/* line 108, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.my-float {
+  margin-top: 16px;
+}
+
+/* line 113, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+#texComent {
+  resize: none;
+}
+
+/* line 116, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+/* line 120, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.card-img-top {
+  box-shadow: -7px -7px 0px #ffcdcd;
+}
+
+/* line 123, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 128, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.btn {
+  background-color: #82a0d8;
+  border-color: #82a0d8;
+  transition: 0.5;
+}
+
+/* line 133, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+#floatingTextarea2 {
+  resize: none;
+}
+
+/* line 136, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+body {
+  align-items: center;
+  justify-content: center;
+  background: #ffcdcd6a;
+}
+
+/* line 141, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+#size {
+  font-size: 35px;
+}
+
+/* line 144, ../../../OneDrive/Documents/César Alcoba/CoderHouse/Desarrollo web/ProyectoFinalNew-Alcoba/sass/estilos.scss */
+.btn-primary:hover {
+  background-color: rgba(137, 163, 212, 0.82);
+}
+
+/*# sourceMappingURL=estilos.css.map */

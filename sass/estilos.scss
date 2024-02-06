@@ -1,0 +1,146 @@
+//Variable para color Principal
+$color-fondo: #ffcdcd;
+
+//Anidacion Navbar
+.fondoMenu {
+    background-color: $color-fondo;
+    position: sticky;
+    top: 0;
+    .active {
+        background-color: #97b1e092;
+        border-radius: 15px;
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+            .navbar-light .navbar-nav .nav-link:hover {
+                background-color: $color-fondo;
+                color: white;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+
+//Anidacion Footer
+.foot {
+    margin-top: 40px;
+    .row {
+        background-color: $color-fondo;
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+                .bi-facebook,
+                .bi-instagram,
+                .bi-twitter,
+                .bi-linkedin {
+                    font-size: 30px;
+                    padding: 10px;
+                    color: #97b0e0;
+                    background-color: none;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+}
+
+//Animaciones
+.card-img-top {
+    transform: scale(1);
+    transition: transform 0.9s;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+.card-img-top:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+//Tipografia
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 55px;
+}
+h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 23px;
+}
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    line-height: 1.5;
+    font-size: 25px;
+}
+.form-select {
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    background-color: #97b0e051;
+}
+.form-control {
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+}
+.btn-primary {
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+}
+
+//Boton WhatsApp
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+.my-float {
+    margin-top: 16px;
+}
+
+//Otros Estilos
+#texComent {
+    resize: none;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+}
+.card-img-top {
+    box-shadow: -7px -7px 0px #ffcdcd;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    background-color: rgb(130, 160, 216);
+    border-color: rgb(130, 160, 216);
+    transition: 0.5;
+}
+#floatingTextarea2 {
+    resize: none;
+}
+body {
+    align-items: center;
+    justify-content: center;
+    background: #ffcdcd6a
+}
+#size {
+    font-size: 35px;
+}
+.btn-primary:hover {
+    background-color: rgba(137, 163, 212, 0.82);
+}
